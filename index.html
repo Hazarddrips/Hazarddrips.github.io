@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- -------BUAT DARK AND LIGHT MODE------ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <script src="https://kit.fontawesome.com/03840b9958.js" crossorigin="anonymous"> </script>
+    <title>Haidar | Web Portofolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/images/—Pngtree—smart phone logo design mobile_3623460.png" alt="logo" width="100px"
+                    height="100px">
+                <img src="assets/images/geralt-sword-the-witcher-3-uhdpaper.com-4K-6.489.jpgs" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi, I'm <span> Haidar </span> <br> From Indonesia</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/images/berserk-berserk-armor-guts-kentaro-miura-wallpaper-preview.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hey there! 👋 I'm passionate about all things in web development. Currently, I'm on an exciting
+                        journey majoring Informatics Engineering in University of Muhammadiyah Malang, where I'm honing
+                        my skills to create innovative and user-friendly digital experiences.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')"> Hobby </p>
+                        <p class="tab-links active-link" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span> Gaming <i class="fa-brands fa-playstation"></i></span><br> I Have Big Profeciency On Most Games</li>
+                            <li><span> Singing <i class="fa-solid fa-microphone"></i> </span><br> Off Time And Spontaneus</l i>
+                            <li><span> Kill My Self <i class="fa-solid fa-square-person-confined"></i> </span><br> My Future Dream</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Amazon</span><br>Designing Web/App Interfaces</l i>
+                            <li><span>App Development</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <div class="timeline">
+                            <div class="event">
+                                <span class="date">2018-2021</span>
+                                <h2 class="school"> SMAN 2 SAMPIT </h2>
+                                <p class="location"> Sampit, Central Kalimantan, Indonesia</p>
+                            </div>
+
+                            <div class="event">
+                                <span class="date">2021- </span>
+                                <h2 class="school"> University Of Muhammadyah Malang</h2>
+                                <p class="location">Malang, East Java, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------services-------------------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title"> Skills </h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-html5 fa-bounce skill-icon" style="color: #e34f1d;"></i>
+                        <h2> HTML </h2>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, esse sint minus
+                            incidunt
+                            saepe repellat a eaque tenetur temporibus voluptatibus aspernatur nemo eius, fuga similique
+                            recusandae? Commodi excepturi deleniti labore.</p>
+                                <i class="fa-solid fa-star star-icon"></i>
+                                <i class="fa-solid fa-star star-icon"></i>
+                                <i class="fa-solid fa-star star-icon"></i>
+                                <i class="fa-regular fa-star star-icon"></i>
+                                <i class="fa-regular fa-star star-icon"></i><br>
+                        <a href="#">learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-css3-alt fa-bounce skill-icon" style="color: #0000ff;"></i>
+                        <h2> CSS </h2>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, esse sint minus
+                            incidunt
+                            saepe repellat a eaque tenetur temporibus voluptatibus aspernatur nemo eius, fuga similique
+                            recusandae? Commodi excepturi deleniti labore.</p>
+                            <i class="fa-solid fa-star star-icon"></i>
+                                <i class="fa-solid fa-star star-icon"></i>
+                                <i class="fa-solid fa-star star-icon"></i>
+                                <i class="fa-regular fa-star star-icon"></i>
+                                <i class="fa-regular fa-star star-icon"></i><br>
+                        <a href="#">learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-js fa-bounce skill-icon" style="color: #ffd700;"></i>
+                        <h2> JavaScript </h2>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, esse sint minus
+                            incidunt
+                            saepe repellat a eaque tenetur temporibus voluptatibus aspernatur nemo eius, fuga similique
+                            recusandae? Commodi excepturi deleniti labore.</p>
+                            <i class="fa-solid fa-star star-icon"></i>
+                                <i class="fa-solid fa-star star-icon"></i>
+                                <i class="fa-solid fa-star star-icon"></i>
+                                <i class="fa-regular fa-star star-icon"></i>
+                                <i class="fa-regular fa-star star-icon"></i><br>
+                        <a href="#">learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------portofolio------------------------- -->
+        <div id="portofolio">
+            <div class="container">
+                <h1 class="sub-title">My Work | Portfolio </h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="assets/images/Screenshot (620).png" alt="">
+                        <div class="layer">
+                            <h3> UNDEFINED </h3>
+                            <p> Screenshot From Valorants</p>
+                            <a href=""><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="assets/images/Screenshot (623).png" alt="">
+                        <div class="layer">
+                            <h3> My First Web </h3>
+                            <p> Before This Web </p>
+                            <a href=""><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!-- ---------------------contact----------------- -->
+        <div id="contact">
+            <div class="container"> <!-- Make 2 Column In 1 Container  -->
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fas fa-paper-plane"></i>haidarzj123@gmail.com</p>
+                        <p> <i class="fas fa-phone-square-alt"></i>08080808088</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/hazarddrips/?hl=id" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i> </a>
+                            <a href="https://www.instagram.com/hazarddrips/?hl=id" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <a href="assets/Docs/CV Haidar Zakki Jumali.docx" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2"> Submit </button>
+                        </form>
+                        <span id="msg"> Hello </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Haidar. Made With <i class="fas fa-heart"></i> by Easy Tutorial</p>
+        </div>
+        <script src="assets/js/script.js"></script>
+</body>
+
+</html>
